@@ -10,7 +10,6 @@ if __name__ == "__main__":
                 file.writelines(row.replace(" ", ", ", 1))
                 print(row)
                 # something new
-                # test
             file.close();
     else:
         print("Enter filename")
